@@ -1,6 +1,6 @@
 # kobo-project-metadata
 
-This project fetches metadata of all projects from a project views given to specific users and exports it to an Excel file.
+This project fetches all the metadata accessible with a project views given to specific users and exports it to an Excel file.
 
 ### Files
 
