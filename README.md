@@ -1,16 +1,12 @@
 # kobo-project-metadata
 
-This project fetches metadata of all proecjt from a project views given to specific users exports it to an Excel file.
+This project fetches metadata of all project from a project views given to specific users and exports it to an Excel file.
 
 ### Files
 
 - **config.json**: Contains the API configuration details such as the token, base URL, and project view UID.
 - **metadata.py**: The main script that fetches and processes the project metadata.
 - **requirements.txt**: Lists the Python dependencies required to run the project.
-
-## Prerequisites
-
-Make sure you have Python installed on your system. You can download it from [python.org](https://www.python.org/).
 
 ## Setup Instructions
 
