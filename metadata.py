@@ -78,8 +78,9 @@ def main():
     # == Configuration Section ==
     # ============================
 
-    # Construct the full API URL for fetching project assets
-    initial_api_url = f"{base_url}/api/v2/project-views/{project_view_uid}/assets/"
+    # Set the page size to fetch 500 assets at a time if supported by the API
+    page_size = 2000  # Adjust as per the API's allowed maximum
+    initial_api_url = f"{base_url}/api/v2/project-views/{project_view_uid}/assets/?limit={page_size}&offset={page_size}"
 
     # Set up the headers with the API token
     headers = {
@@ -115,7 +116,7 @@ def main():
         return
 
     # ================================
-    # == Excel Export Section ========
+    # == Excel Export Section ==
     # ================================
 
     # Export to Excel
