@@ -78,9 +78,8 @@ def main():
     # == Configuration Section ==
     # ============================
 
-    # Set the page size to fetch 500 assets at a time if supported by the API
-    page_size = 2000  # Adjust as per the API's allowed maximum
-    initial_api_url = f"{base_url}/api/v2/project-views/{project_view_uid}/assets/?limit={page_size}&offset={page_size}"
+
+    initial_api_url = f"{base_url}/api/v2/project-views/{project_view_uid}/assets/"
 
     # Set up the headers with the API token
     headers = {
