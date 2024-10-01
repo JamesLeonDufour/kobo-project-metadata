@@ -37,7 +37,7 @@ This project fetches all the metadata accessible with a project views given to s
     ```json
     {
       "KOBO_API_TOKEN": "YOURTOKENHERE",
-      "BASE_URL": "https://kobo.XXXX.org/",
+      "BASE_URL": "https://kf.XXXX.XXX/",
       "PROJECT_VIEW_UID": "PROJECT_VIEW_UID"
     }
     ```
